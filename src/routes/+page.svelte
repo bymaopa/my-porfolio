@@ -15,7 +15,7 @@
 
 <div
 	id="iframe"
-	class="relative z-0 h-full max-h-svh w-full overflow-y-auto rounded-t-[24px] rounded-b-[48px] border-0 bg-transparent 
+	class="relative z-0 h-full max-h-svh w-full overflow-hidden rounded-t-[24px] rounded-b-[48px] border-0 bg-transparent 
     m-0 p-0 text-slate-100 drop-shadow-2xl shadow-2xl"
 >
     <!-- 
@@ -41,7 +41,7 @@
     {#if ready}
 	<div
 		id="if.content"
-		class="relative m-0 p-0 flex h-full w-full flex-col items-start justify-start overflow-auto overflow-x-hidden overflow-y-auto align-baseline z-20"
+		class="relative m-0 p-0 flex h-full w-full flex-col items-start justify-start overflow-x-hidden  align-baseline z-20"
         in:fade={{ duration: 800, delay: 150 }}
     >   
         <div 
