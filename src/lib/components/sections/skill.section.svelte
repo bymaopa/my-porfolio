@@ -26,7 +26,7 @@
 
 <div
 	id="ctn.skills"
-	class="m-0 px-2 flex relative left-0 right-0 w-full h-full min-h-[98vh] top-0 bottom-0 items-center justify-center align-middle"
+	class="m-0 px-2 mt-42 lg:pt-0 flex relative left-0 right-0 w-full h-full min-h-[98vh] top-0 bottom-0 items-center justify-center align-middle"
 >
 	<div
 		class="flex flex-col w-full h-full md:w-[95%] lg:w-[90%] xl:w-[85%] m-auto p-0 justify-center align-middle items-center gap-12 font-[Nunito_Code]"
@@ -46,7 +46,7 @@
 			</h1>
 			<ul
 				id=""
-				class="flex flex-col lg:flex-row justify-around items-center align-middle gap-x-6"
+				class="flex flex-col lg:flex-row justify-around items-center align-middle gap-6"
 			>
 				{#each arrSkillText as skill}
 					<li
