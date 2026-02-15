@@ -20,7 +20,7 @@
 				id=""
 				class="relative z-10 w-auto max-h-100 object-contain saturate-70 contrast-150 hover:scale-105 transform-gpu transition-all duration-300 ease-in-out"
 				alt="Retrato"
-				src="/src/lib/assets/img/IMG_0997.png?t=1771167054421"
+				src="{imgWelcome}"
 			/>
 		</div>
 		<p class="w-full h-auto text-2xl font-regular uppercase text-slate-400 font-[Nunito_Code] opacity-50 backdrop-opacity-0">
