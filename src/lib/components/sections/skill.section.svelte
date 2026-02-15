@@ -52,9 +52,9 @@
 					<li
 						class="w-full flex relative h-full top-0 flex-col gap-y-2 uppercase justify-start align-middle justify-items-start place-items-start items-start"
 					>
-						<p class="text-sm text-slate-400 opacity-70 backdrop-opacity-40 backdrop-blur-sm">0{skill.id}</p>
+						<p class="text-md text-neutral-600 font-black backdrop-opacity-40 backdrop-blur-sm">0{skill.id}</p>
 						<h1 class="text-lg font-semibold text-white opacity-80 backdrop-opacity-40 backdrop-blur-sm">{skill.text}</h1>
-						<p class="font-normal text-slate-400 opacity-70 backdrop-opacity-40 backdrop-blur-sm">
+						<p class="font-normal text-neutral-600 backdrop-opacity-40 backdrop-blur-sm h-42.5">
 							{skill.description}
 						</p>
 						<p class="text-white relative bottom-0 opacity-80 backdrop-opacity-40 backdrop-blur-sm">{skill.icons}</p>
@@ -63,9 +63,11 @@
 			</ul>
 		</div>
 		<!-- Frase celebre -->
-		<div class="flex flex-col w-full justify-center items-center h-auto text lg:px-12 mb-20">
-			<h1 class="text-3xl italic text-justify text-slate-400 opacity-70 backdrop-opacity-40 backdrop-blur-sm">"La fuerza del equipo viene de cada miembro. La fuerza de cada miembro es el equipo"</h1>
-			<p class="w-full h-auto text-end text-slate-400 opacity-70 backdrop-opacity-40 backdrop-blur-sm">( Phil Jackson )</p>
+		<div class="flex flex-col w-full justify-center items-center h-auto text mb-20">
+			<h1 class="text-3xl italic font-bold text-justify text-neutral-600 opacity-100 backdrop-opacity-40 backdrop-blur-sm">
+				"La fuerza de un equipo viene de cada miembro. La fuerza de cada miembro es el equipo"
+			</h1>
+			<p class="w-full h-auto font-bold text-end text-neutral-600 opacity-100 backdrop-opacity-40 backdrop-blur-sm">( Phil Jackson )</p>
 		</div>
 	</div>
 </div>

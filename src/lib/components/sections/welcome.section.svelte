@@ -1,19 +1,25 @@
 <script lang="ts">
 	import imgWelcome from '$lib/assets/img/IMG_0997.png';
+    import imgLogo from '$lib/assets/favicon.svg';
+
+    // Iconos
 	import IconDownFill from '$lib/components/icons/down-fill.svelte';
 </script>
 
 <div
 	id="ctn.inicio"
-	class="m-0 px-2 pb-12 flex relative left-0 right-0 w-full min-h-[95vh] h-screen items-center justify-center align-middle"
+	class="m-0 px-2 pb- lg:pb-0 flex relative left-0 right-0 w-full min-h-[95vh] h-screen items-center justify-center align-middle"
 >
 	<div class="flex flex-col w-full h-full md:w-[95%] lg:w-[90%] xl:w-[85%] m-auto p-0 justify-center align-middle items-center gap-12">
+        <div class="absolute flex flex-row top-0 left-0 right-0 w-full md:w-[95%] lg:w-[90%] xl:w-[85%] h-20 justify-between items-center align-middle inset-0 px-auto mx-auto m-0 py-12">
+        </div>
 		<!-- Imagen -->
 		<div class="relative w-full h-auto flex justify-center items-center overflow-hidden m-0 mt-12 lg:mt-0 p-0 pt-8 md:pt-10">
 			<div class="absolute inset-0 z-0 flex w-full justify-center items-center select-none pointer-events-none px-0 lg:px-12 pb-12 lg:pb-0">
-				<h1 
-                    style="font-size: clamp(80px, 15vw, 200px);"
-                class="w-full lg:w-auto relative left-0 font-bold italic uppercase text-slate-400 opacity-30 backdrop-opacity-40 backdrop-blur-sm text-start leading-[0.85]">
+				<h1
+					style="font-size: clamp(80px, 15vw, 200px);"
+					class="w-full lg:w-auto relative left-0 font-black italic uppercase text-neutral-950 opacity-100 backdrop-opacity-40 backdrop-blur-sm text-start leading-[0.85]"
+				>
 					Full <br />
 					<span class="font-black not-italic">Stack</span>
 				</h1>
@@ -30,8 +36,8 @@
 		>
 			Transformo ideas en experiencias digitales robustas. Especialista en desarrollo con
 			<span class="underline text-orange-400 opacity-100">Svelte</span>
-			y 
-            <span class="underline text-indigo-400 opacity-100">JSP</span>, integrando
+			y
+			<span class="underline text-indigo-400 opacity-100">JSP</span>, integrando
 			<span class="underline">Inteligencia Artificial</span>
 			para optimizar procesos y crear soluciones innovadoras.
 		</p>

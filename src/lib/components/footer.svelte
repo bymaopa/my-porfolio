@@ -18,11 +18,11 @@
 						</div>
 
 						<div class="flex flex-col justify-center items-center text-center space-y-1">
-							<p class="text-gray-400 text-lg font-extrabold uppercase">
+							<p class="text-neutral-500 text-lg font-extrabold uppercase">
 								© 2026
 								<span class="font-bold lowercase"> &gt; maopa. </span>
 							</p>
-							<p class="text-gray-500 text-sm font-bold uppercase">Hecho con pasión y dedicación &lt;3</p>
+							<p class="text-neutral-500 text-sm font-normal uppercase">Hecho con pasión y dedicación &lt;3</p>
 						</div>
 					</div>
 				</div>
