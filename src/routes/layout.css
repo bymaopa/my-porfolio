@@ -1,21 +1,7 @@
 @import 'tailwindcss';
 
+@import '$lib/styles/index.css';
+
 /** Iframe */
 @import '$lib/styles//iframe/index.css';
 @import '$lib/styles/iframe/iframe.background.css';
-
-
-
-.favicon-logo {
-  background-color: #ffffff; /* AQUÍ PONES EL COLOR QUE QUIERAS */
-  
-  /* Aquí cargas la máscara */
-  -webkit-mask-image: url('$lib/assets/favicon.svg');
-  mask-image: url('$lib/assets/favicon.svg');
-  
-  /* Ajustes para que no se repita y se centre */
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
